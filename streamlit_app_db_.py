@@ -1486,7 +1486,7 @@ def main():
     init_state()
     status_class = "status-error" if st.session_state.error else "status-ready"
     st.markdown(
-        f'<div class="hero"><h1>IRR Monte Carlo</h1>'
+        f'<div class="hero"><h1>IRR Monte Carlo DB</h1>'
         f'<p>Project-finance simulation and risk-analysis tool</p></div>',
         unsafe_allow_html=True,
     )
