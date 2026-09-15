@@ -45,7 +45,7 @@ from database import (
     update_preset,
 )
 
-st.set_page_config(page_title="IRR Monte Carlo DB", page_icon="📊", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="IRR Monte Carlo", page_icon="📊", layout="wide", initial_sidebar_state="expanded")
 
 BG = "#F4F6F4"
 CARD = "#FFFFFF"
